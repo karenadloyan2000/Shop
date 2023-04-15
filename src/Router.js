@@ -21,10 +21,10 @@ export const MyRouter = () =>{
                 {path:'Shop/catalogs',element:<Catalogs></Catalogs>},
             ],
         },
-        {
-            path:"*",
-            element:<h1>Pages noth found</h1>
-        },
+        // {
+        //     path:"*",
+        //     element:<h1>Pages noth found</h1>
+        // },
     ]) 
     return routing
 }
