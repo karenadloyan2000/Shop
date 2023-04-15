@@ -1,0 +1,208 @@
+.FilterCatalog{
+    max-width: 272px;
+    width: 100%;
+    /* background: red;    */
+}
+.filterHeader{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    background: #F3F2F1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.filterHeader>h2{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+}
+.filterPrice{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.filterText{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filterText>h2{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.filterText>button{
+    max-width: 85px;
+    width: 100%;
+   padding: 4px 8px;
+   box-sizing: border-box;
+    background: #F3F2F1;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+    color: #606060;
+}
+.filterInput{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.filterInput>input{
+    max-width: 124px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    border-radius: 4px;
+    outline: none;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #414141;
+}
+.Reange{
+    width: 100%;
+    position: relative;
+    height: 5px;
+    background: #F3F2F1;
+    border-radius: 2px;
+    margin: 20px 0;
+}
+.Reange>input{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: 5px;
+    bottom: 50%;
+    margin: auto;
+    pointer-events: none;
+}
+.Reange>input[type="range"]::-webkit-slider-thumb{
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background-color: #70C05B;
+    pointer-events: auto;
+    border-radius: 50%;
+    border:1px solid white;
+}
+.rangeInput{
+   appearance:none;
+   background: none;
+}
+.progress{
+    background: green;
+    position: absolute;
+    top: 25%;
+    width: 50%;
+    height: 5px;
+    margin: auto;
+    border-radius: 4px;
+    left: 0;
+    right: 0;
+}
+.ResultCards{
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    max-width: 836px;
+    width: 100%;
+}
+.ResultCard{
+    max-width: 272px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.ResultCard>h2{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #414141;
+    margin-top: 8px;
+}
+.ResultCard>p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+    margin-bottom: 8px;
+}
+.sardStars{
+    display: flex;
+    grid-gap:0 4px
+}
+.ResultCard>a{
+    border: 1px solid #70C05B;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #70C05B;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    transition: 0.3;
+}
+.ResultCard>a:hover{
+    background-color: #70C05B;
+    color: white;
+    transition: 0.3;
+}
+@media (max-width:1108px){
+    .ResultCards{
+        justify-content: space-around;
+    }
+}
+@media (max-width:588px){
+    .FilterCatalog{
+        display: none   ;
+    }
+    .ResultCards{
+        max-width: 97%;
+    }
+    .ResultCard{
+        max-width: 408px;
+        display: flex;
+        flex-direction: column;
+    }
+    .ResultCard>img{
+        margin: auto;
+    }
+    .catalogMain>h2{
+        font-size: 2rem;
+    }
+}

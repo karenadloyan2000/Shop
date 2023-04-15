@@ -1,0 +1,48 @@
+@media (max-width:1024px){
+    .container{
+        max-width: 97%;
+    }
+    .catecory-text{
+        display: none;
+    }
+    .headerMenu{
+        margin: 0 0 0 0!important;
+    }
+    .userName{
+        display: none;
+    }
+    .mobileUserBlock{
+        max-width: 64px;
+    }
+}
+@media (max-width:865px){
+    .mobieSearch{
+        margin: 0 5px 0 5px;
+    }
+    .mobileUserBlock{
+        margin: 0 0 0 15px;
+    }
+}
+@media (max-width:800px){
+    .headerButtonsMobile{
+        display: none;
+    }
+    .headerCatalogMobile{
+        display: none!important;
+    }
+    .mobileUserBlock{
+        display: none;
+    }
+    .headerCatalogMobile{
+        margin: 0 5px 0 5px;
+    }
+
+}
+@media (max-width:500px){
+    .dasketopLogo{
+        display: none;
+    }
+    .mobileLogo{
+        display: block;
+    }
+}

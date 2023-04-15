@@ -1,0 +1,30 @@
+import { useRoutes } from "react-router-dom"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import MobileMneu from "./components/Header/MobileMenu"
+import Home from "./Pages/Home"
+import ProductsPage from "./Pages/Products"
+import Catalogs from "./Pages/Catalogs"
+import Catalog from "./Pages/Catalog"
+import { Layout } from "./components/layout"
+export const MyRouter = () =>{
+    const routing = useRoutes([
+        {
+            path:"",
+            element:[
+                <Layout></Layout>
+            ],
+            
+            children:[
+                {path:'',element:<Home></Home>},
+                {path:'/catalog',element:<Catalog></Catalog>},
+                {path:'/catalogs',element:<Catalogs></Catalogs>},
+            ],
+        },
+        {
+            path:"*",
+            element:<h1>Pages noth found</h1>
+        },
+    ]) 
+    return routing
+}

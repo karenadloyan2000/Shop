@@ -1,0 +1,29 @@
+.footerContent{
+    
+}
+footer{
+    background: url('../../../public/images/logo/footer.png');
+    background-size: cover;
+    padding: 24px 0;
+}
+.footerMenu>li>a{
+    text-decoration: none;
+    font-family: 'rubik-400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #414141;
+}
+.footerPhone>img{
+    margin: 0 10px 0 0;
+}
+.footerContent>a{
+    font-family: 'rubik-400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+    text-decoration: none;
+}

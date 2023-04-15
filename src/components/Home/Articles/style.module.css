@@ -1,0 +1,91 @@
+.articleHeader{
+    margin-bottom: 40px;
+}
+.articleHeader>h2{
+    font-family: 'rubik-700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #414141;
+}
+.articleHeader>a{
+    font-family: 'rubik-400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #606060;
+    text-decoration: none;
+}
+.ArticleCard{
+    background: #FFFFFF;
+/* Default/XS */
+
+box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+overflow: hidden;
+}
+.ArticleCard>img{
+    margin-bottom: 10px;
+}
+.ArticleCardText{
+    padding: 0 10px;
+}
+.ArticleCardText>span{
+    font-family: 'rubik-400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #8F8F8F;
+}
+.ArticleCardText>h2{
+    font-family: 'rubik-700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #414141;
+    margin: 10px 0;
+}
+.ArticleCardText>p{
+    margin-bottom: 10px;
+    font-family: 'rubik-400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+}
+.ArticleCardText>button{
+    background: #E5FFDE;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'rubik-400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #70C05B;
+    text-align:center;
+    transition:0.34s;
+    margin-bottom: 10px;
+    border: none;
+}
+.ArticleCardText>button:hover{
+    background: #70C05B;
+    transition:0.34s;
+    color: white;
+    cursor: pointer;
+}
+/*-----------------------------------media-------------------------------*/
+@media(max-width:532px){
+    .ArticleCard{
+        margin: auto;
+    }
+}

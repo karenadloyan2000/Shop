@@ -1,0 +1,42 @@
+.specialLeft{
+    padding: 8px 33px 8px 40px;
+    box-sizing: border-box;
+    background: #FCD5BA;
+    box-shadow: 0px 8px 16px rgba(202, 147, 96, 0.5);
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+.specialLeft>img,.specialRight>img{
+    max-width: 193px;
+    width: 100%;
+}
+.specialRight{
+    padding: 30px 40px 0px 40px;
+    box-sizing: border-box;
+    background: #E5FFDE;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px #e2e2e2;
+}
+.SpecailText>h2{
+    font-family: 'rubik-700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #414141;
+    margin-bottom: 6px;
+}
+.SpecailText>p{
+    font-family: 'rubik-400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #414141;
+}
+@media(max-width:600px){
+    .specialLeft,.specialRight{
+        flex-wrap: wrap;
+    }
+}

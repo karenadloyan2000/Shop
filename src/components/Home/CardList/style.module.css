@@ -1,0 +1,8 @@
+.cards{
+
+}
+@media (max-width:500px){
+    .cards{
+        justify-content: space-around;
+    }
+}

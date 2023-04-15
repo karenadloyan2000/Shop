@@ -1,0 +1,27 @@
+.stock{
+
+}
+.stockHeader>h2{
+    font-family: 'rubik-700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #414141;
+}
+.stockHeader>a{
+    font-family: 'rubik-400';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #606060;
+    text-decoration: none;
+}@media (max-width:400px){
+    .stock{
+        justify-content: space-around;
+    }
+}

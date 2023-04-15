@@ -1,0 +1,15 @@
+.location{
+    width: 100%
+}
+.location>h2{
+    margin-bottom: 40px;
+    font-family: 'rubik-700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #414141;
+}
+.location>iframe{
+    height: 400px;
+}

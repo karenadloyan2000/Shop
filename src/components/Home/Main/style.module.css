@@ -1,0 +1,18 @@
+.main{
+    width: 100%;
+    background: url(../../../../public/images/SlidersBackground.png);
+    background-size: cover;
+}
+.mainContent>h2{
+    font-family: 'rubik-700';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+}
+/*---------------------------------------media----------------------------------------------*/
+@media(max-width:532px){
+    .mainContent>h2{
+        font-size: 27px;
+    }
+}

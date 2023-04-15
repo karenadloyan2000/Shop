@@ -1,0 +1,40 @@
+.catalogMain{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px 0;
+}
+.CategoryHeader{
+    display: flex;
+    grid-gap: 0 10px;
+    padding: 24px 0;
+}
+.CategoryHeader>a{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #414141;
+    text-decoration: none;
+}
+.CategoryHeader>span{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #8F8F8F;
+}
+.catalogMain>h2{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    color: #414141;
+}
+.catalogContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
