@@ -16,7 +16,7 @@ export const MyRouter = () =>{
             ],
             
             children:[
-                {path:'https://karenadloyan2000.github.io/Shop/',element:<Home></Home>},
+                {path:'Shop',element:<Home></Home>},
                 {path:'Shop/catalog',element:<Catalog></Catalog>},
                 {path:'Shop/catalogs',element:<Catalogs></Catalogs>},
             ],
