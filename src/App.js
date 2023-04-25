@@ -12,9 +12,10 @@ function App() {
 
   return (
       <>
-        <BrowserRouter basename=“/Shop”>
-          <MyRouter></MyRouter>
-        </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+      </Routes>
         <MobileMneu></MobileMneu>
       </>
     
