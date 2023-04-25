@@ -1,4 +1,4 @@
-import { Route, Routes, useRoutes } from "react-router-dom"
+import { Route, Routes, Switch, useRoutes } from "react-router-dom"
 // import Footer from "./components/Footer"
 // import Header from "./components/Header"
 // import MobileMneu from "./components/Header/MobileMenu"
