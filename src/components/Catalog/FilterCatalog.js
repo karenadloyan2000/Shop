@@ -3,10 +3,11 @@ import styles from './styles.module.css'
 const FilterCatalog = ()=>{
     const  [max,setMax] = useState(1000);
     const  [min,setMin] = useState(2500)
+    const [openF,setOpenf] = useState('none')
     return <>
         <div className={`${styles.FilterCatalog}`}>
             <div className={`${styles.filterHeader}`}>
-                <h2>Фильтр</h2>
+                <h2 onClick={(e=>setOpenf('flex'))}>Фильтр</h2>
             </div>
             <div className={`${styles.filterPrice}`}>
                 <div className={`${styles.filterText}`}>

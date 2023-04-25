@@ -177,6 +177,20 @@
     margin-top: 8px;
     transition: 0.3;
 }
+.filterMobileCatalog{
+    position: absolute;
+    top: 0px;
+    left: -8px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(255, 102, 51, 0.5);
+    border-radius: 0px 0px 4px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.FilterCatalogMobile{
+    display: flex;
+    flex-direction: column;
+}
 .ResultCard>a:hover{
     background-color: #70C05B;
     color: white;
