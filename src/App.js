@@ -12,7 +12,7 @@ function App() {
 
   return (
       <>
-        <BrowserRouter>
+        <BrowserRouter basename=“/Shop”>
           <MyRouter></MyRouter>
         </BrowserRouter>
         <MobileMneu></MobileMneu>
