@@ -16,15 +16,15 @@ export const MyRouter = () =>{
     //         ],
             
     //         children:[
-    //             {path:'',element:<Home></Home>},
-    //             {path:'catalog',element:<Catalog></Catalog>},
-    //             {path:'catalogs',element:<Catalogs></Catalogs>},
+    //             {path:'Shop',element:<Home></Home>},
+    //             {path:'Shop/catalog',element:<Catalog></Catalog>},
+    //             {path:'Shop/catalogs',element:<Catalogs></Catalogs>},
     //         ],
     //     },
-    //     {
-    //         path:"*",
-    //         element:<h1>Pages noth found</h1>
-    //     },
+    //     // {
+    //     //     path:"*",
+    //     //     element:<h1>Pages noth found</h1>
+    //     // },
     // ]) 
     // return routing
     <Routes>

@@ -12,9 +12,10 @@ function App() {
 
   return (
       <>
-        <BrowserRouter>
+              <BrowserRouter>
           <MyRouter></MyRouter>
         </BrowserRouter>
+        <MobileMneu></MobileMneu>
         <MobileMneu></MobileMneu>
       </>
     
