@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Shop/static/css/main.f2f43a45.css",
-    "main.js": "/Shop/static/js/main.a7e57fc2.js",
-    "static/js/787.23170c61.chunk.js": "/Shop/static/js/787.23170c61.chunk.js",
-    "static/media/Inter-Bold.ttf": "/Shop/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
-    "static/media/Inter-Light.ttf": "/Shop/static/media/Inter-Light.eec8664621fec98efb37.ttf",
-    "static/media/SlidersBackground.png": "/Shop/static/media/SlidersBackground.d3924c6ae2c3d531bde1.png",
-    "static/media/logo.svg": "/Shop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Shop/index.html",
-    "main.f2f43a45.css.map": "/Shop/static/css/main.f2f43a45.css.map",
-    "main.a7e57fc2.js.map": "/Shop/static/js/main.a7e57fc2.js.map",
-    "787.23170c61.chunk.js.map": "/Shop/static/js/787.23170c61.chunk.js.map"
+    "main.css": "/karenadloyan2000/Shop/static/css/main.6c8d6731.css",
+    "main.js": "/karenadloyan2000/Shop/static/js/main.7afac4e8.js",
+    "static/js/787.23170c61.chunk.js": "/karenadloyan2000/Shop/static/js/787.23170c61.chunk.js",
+    "static/media/Inter-Bold.ttf": "/karenadloyan2000/Shop/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Light.ttf": "/karenadloyan2000/Shop/static/media/Inter-Light.eec8664621fec98efb37.ttf",
+    "static/media/SlidersBackground.png": "/karenadloyan2000/Shop/static/media/SlidersBackground.d3924c6ae2c3d531bde1.png",
+    "static/media/logo.svg": "/karenadloyan2000/Shop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/karenadloyan2000/Shop/index.html",
+    "main.6c8d6731.css.map": "/karenadloyan2000/Shop/static/css/main.6c8d6731.css.map",
+    "main.7afac4e8.js.map": "/karenadloyan2000/Shop/static/js/main.7afac4e8.js.map",
+    "787.23170c61.chunk.js.map": "/karenadloyan2000/Shop/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2f43a45.css",
-    "static/js/main.a7e57fc2.js"
+    "static/css/main.6c8d6731.css",
+    "static/js/main.7afac4e8.js"
   ]
 }
