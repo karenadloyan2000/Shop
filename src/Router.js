@@ -1,5 +1,4 @@
 import { Route, Routes, useRoutes } from "react-router-dom"
-import {  Switch } from "react-router";
 
 // import Footer from "./components/Footer"
 // import Header from "./components/Header"
@@ -33,9 +32,9 @@ export const MyRouter = () =>{
     // <Routes>
     //     <Route path="/" element={<Home />}></Route>
     //   </Routes>
-    <Switch>
+    
         <Routes>
             <Route path="/" element={<Home />}></Route>
         </Routes>
-    </Switch>
+   
 }
