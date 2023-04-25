@@ -28,8 +28,12 @@ export const MyRouter = () =>{
     // ]) 
     // return routing
 
-    <Routes>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
-
+    // <Routes>
+    //     <Route path="/" element={<Home />}></Route>
+    //   </Routes>
+    <Switch>
+        <Routes>
+            <Route path="/" element={<Home />}></Route>
+        </Routes>
+    </Switch>
 }
